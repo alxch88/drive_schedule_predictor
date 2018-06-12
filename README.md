@@ -10,4 +10,5 @@ To validate the algorith, mount the project on a Running Apache Server, and open
 - License Plate
 - Date
 - Time
+
 Once, you have entered all the data, you can click on the validation button and get the Answer.
