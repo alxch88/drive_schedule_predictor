@@ -12,3 +12,5 @@ To validate the algorith, mount the project on a Running Apache Server, and open
 - Time
 
 Once, you have entered all the data, you can click on the validation button and get the Answer.
+# Author
+Alex Chávez Chérrez
