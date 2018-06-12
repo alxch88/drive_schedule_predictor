@@ -1,0 +1,62 @@
+body{
+    background:#FFFFFF;
+}
+
+.mainContainer{
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid #b0b0b0;
+    border-radius: 10px;
+    padding: 20px;
+    background:#FFFFFF;
+}
+
+#carPlate, #date, #time{
+    border: 1px solid #b0b0b0;
+    border-radius: 3px !important;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+    height: auto;
+    padding: 10px;
+    transition: box-shadow 150ms ease-in-out 0s;
+    width: 300px;
+    will-change: box-shadow;
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+
+#validateButton{
+    width: 300px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    background: #808e2d !important;
+    background: #808e2d;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#validateButton:hover{
+    opacity: 0.8;
+}
+
+@media only screen and (max-width:650px)
+{
+    .mainContainer{
+        width: 80%;
+    }
+
+    #carPlate, #dateTime{
+        width: 90%;
+    }
+
+    #validateButton{
+        width: 90%;
+    }
+}
